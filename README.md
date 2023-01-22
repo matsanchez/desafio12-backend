@@ -37,6 +37,11 @@ Ingresas en el navegador http://localhost:8080
 
 > Creacion Base de Datos:
 
-`Si ya esta MySql a la escucha, simplemente ejecutas la aplicacion con los comandos "npm run dev" o "npm run start" y en el navegador ingresar a http://localhost:8080 y automaticamente se creara la base de datos en Mysql local bajo el nombre websocket_mariadb y se generara el archivo de la base de datos de Sqlite con el nombre "ecommerce" dentro de la carpeta DB del proyecto siempre y cuando Inicies Sesion`
+`En cuanto inicies sesion o te registres y pases las validaciones se crearan las bases de datos automaticamente:
+users 
+sessions 
+websocket_mariadb 
+ecommerce 
+`
 
 Autor: Matias Sanchez
