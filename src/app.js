@@ -9,7 +9,7 @@ import MongoStore from "connect-mongo";
 import passport from "passport";
 import userRouter from "./routes/auth/login.routes.js";
 import indexRouter from "./routes/index.routes.js";
-import { initializePassport } from "./strategies/passport.config.js";
+import { initializePassport } from "./strategies/passport.strategy.js";
 import { Manager } from "./controllers/manager.js";
 import { configMysql, configSqlite } from "./config/db.config.js";
 const managerProductos = new Manager(configMysql, "productos");
