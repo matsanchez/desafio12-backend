@@ -2,7 +2,7 @@
 
 ## Inicio de Sesion
 
-### Se utlizo passport-local para la autentificacion y la password encriptada bcrypt
+### Se utilizo passport-local para la autentificacion y la password encriptada con bcrypt.
 
 #### Comenzamos:
 
